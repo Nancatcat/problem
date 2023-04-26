@@ -1,0 +1,4 @@
+﻿  game.c
+G:\code\problem\problem_4.25\game.c(88,43): warning C4028: 形参 2 与声明不同
+G:\code\problem\problem_4.25\game.c(89,1): warning C4029: 声明的形参表不同于定义
+  problem_4.25.vcxproj -> G:\code\problem\problem_4.25\Debug\problem_4.25.exe
