@@ -18,7 +18,11 @@ void Game()
     
 	
 }
+<<<<<<< HEAD
 void menu()//游戏菜单
+=======
+void menu()
+>>>>>>> 479042ab77c6869aafa2d669b9a0cdfe578a7a7b
 {
 	printf("**************************\n");
 	printf("**************************\n");
@@ -30,6 +34,7 @@ void menu()//游戏菜单
 int main()
 {
 	int input = 0;
+<<<<<<< HEAD
 	srand((unsigned int)time(NULL));//设置随机数
 	do
 	{
@@ -47,6 +52,25 @@ int main()
 			break;
 		default:
 			printf("输入错误，请重新输入\n");//重新循环
+=======
+	srand((unsigned int)time(NULL));
+	do
+	{
+		menu();
+		printf("请选择>");
+		scanf("%d", &input);
+		switch (input)
+		{
+		case 1:
+			//游戏函数
+			Game();
+			break;
+		case 0:
+			printf("退出游戏\n");
+			break;
+		default:
+			printf("输入错误，请重新输入\n");
+>>>>>>> 479042ab77c6869aafa2d669b9a0cdfe578a7a7b
 			break;
 		}
 	} while (input);
